@@ -1,0 +1,16 @@
+{
+  "name": "Remix: SMART EDUSAFE SYSTEM",
+  "description": "Hostel safety reporting system with student panic buttons, automated CCTV recording, and warden monitoring dashboards.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "display-capture",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "real-time communication",
+    "video recording",
+    "audio recording",
+    "administrator management (admin backend)"
+  ]
+}
