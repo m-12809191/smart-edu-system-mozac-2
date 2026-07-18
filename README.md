@@ -1,27 +1,20 @@
-This system  is a comprehensive education management platform designed to simplify and digitalize school administration processes.
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-This system helps manage students, teachers, classes, attendance, examinations, academic records, and administrative operations in one centralized platform. It reduces manual paperwork, improves efficiency, and provides better access to important school data for administrators, teachers, and staff.
+# Run and deploy your AI Studio app
 
-Key Features
-Student registration and profile management
-Teacher and staff management
-Class and subject organization
-Attendance tracking system
-Examination and result management
-Academic performance monitoring
-Administrative dashboard
-Secure login and role-based access control
-Centralized school data management
-Purpose
+This contains everything you need to run your app locally.
 
-The main objective of this project is to create a smarter, faster, and more organized school management environment by replacing traditional manual processes with a digital solution.
+View your app in AI Studio: https://ai.studio/apps/b4af2af1-46b8-4c37-a930-d26509510bb1
 
-Suitable For
-Secondary schools
-Private institutions
-Academic administration departments
-Educational management systems
+## Run Locally
 
-This release represents a stable version of the system with core functionalities ready for implementation and future enhancements.
+**Prerequisites:**  Node.js
 
-Access this Project at https://smart-edusafe-system-mozac.onrender.com
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
