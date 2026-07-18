@@ -30,7 +30,7 @@
     "react-dom": "^19.0.1",
     "socket.io": "^4.8.3",
     "socket.io-client": "^4.8.3",
-    "vite": "^6.2.3"
+    "vite": "^8.1.5"
   },
   "devDependencies": {
     "@types/cors": "^2.8.19",
@@ -40,6 +40,6 @@
     "tailwindcss": "^4.1.14",
     "tsx": "^4.21.0",
     "typescript": "~5.8.2",
-    "vite": "^6.2.3"
+    "vite": "^8.1.5"
   }
 }
