@@ -204,7 +204,7 @@ export const LoginView = ({ onLogin }: { onLogin: (id: string, role: UserRole) =
   const handleLogin = async () => {
     setIsLoading(true);
     // Special Super Admin check
-    if (id === 'admin.kitabuddy.iam.proton.me' && password === '21412141') {
+    if (id === 'admin@edusafe.dpdns.org' && password === 'admin@2141') {
       onLogin(id, 'superadmin');
       setIsLoading(false);
       return;

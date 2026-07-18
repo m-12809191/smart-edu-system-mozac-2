@@ -56,7 +56,7 @@ let authorizedUsers: { id: string; role: 'student' | 'warden' | 'superadmin'; pa
   { id: 'S2024-003', role: 'student' },
   { id: 'BIO-STUDENT-01', role: 'student' },
   { id: 'warden@asrama.edu', role: 'warden', password: 'admin123' },
-  { id: 'admin.kitabuddy.iam.proton.me', role: 'superadmin', password: '21412141', name: 'Super Admin' }
+  { id: 'admin@edusafe.dpdns.org', role: 'superadmin', password: 'admin@2141', name: 'Super Admin' }
 ];
 
 async function ensureSuperAdmin() {
